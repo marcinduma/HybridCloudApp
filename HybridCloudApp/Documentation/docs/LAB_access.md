@@ -1,6 +1,6 @@
 # Connectivity Check
 
-## Lab access general description
+## 1. Lab access general description
 
 The lab has been built leveraging multiple cloud environments as following:
 
@@ -11,11 +11,31 @@ The lab has been built leveraging multiple cloud environments as following:
 You will have access to Cisco Container Platform GUI, where you will setup new Kubernetes Clusters deployed in AWS, GKE and On-Prem. In the end you will manage your application that will be deployed in 3 different environments. In this lab you will see how to connect microservices together to make whole application work.
 Most of the tasks you will do from Linux Jumphost that is running on-premise. From there you will deploy components of your application in Kubernetes Cluster in AWS, GKE and on-premise.
 
-## 1. Cisco dCloud infrastructure access (VPN)
+## 2. Cisco dCloud dashboard
+
+The entire lab for the session is built using Cisco dCloud environment. To access it, you need to login to dCloud dashboard first. To do so, open https://dcloud.cisco.com in your browser.
+
+<img src="https://github.com/marcinduma/HybridCloudApp/blob/master/HybridCloudApp/Documentation/images/dcloud-start.png?raw=true" width = 500>
+
+On the right top corner is button to login. To enter dCloud dashboard, please use your CCO account. It's same credentials which you use to access cisco.com resources ie downloading the Cisco software.
+
+Once login to the Cisco dCloud dashboard, change your Data Center to be LON - EMEAR. To do it, click on the button left to your profile - right top corner.
+
+<img src="https://github.com/marcinduma/HybridCloudApp/blob/master/HybridCloudApp/Documentation/images/dcloud-start-frame.png?raw=true" width = 500>
+
+When moved to correct DataCenter for the session, navigate to "My Hub" section, where you will see your assigned session.
+
+<img src="https://github.com/marcinduma/HybridCloudApp/blob/master/HybridCloudApp/Documentation/images/dcloud-dashboard.png?raw=true" width = 500>
+
+On your session list you will see the one for HOLCLD-2101. Please open "view" to check details, how to login to VPN.
+
+<img src="https://github.com/marcinduma/HybridCloudApp/blob/master/HybridCloudApp/Documentation/images/dcloud-dashboard-view.png?raw=true" width = 500>
+
+## 3. Cisco dCloud infrastructure access (VPN)
 
 In order to get access to dcloud network, you will get assigned a individual session with  username and password for VPN. Please then use Cisco AnyConnect VPN client from your desktop, to connect to Cisco dCloud network.
 
-### 2 Cisco Anyconnect Mobility Client
+### Cisco Anyconnect Mobility Client
 
 Run Cisco Anyconnect VPN client available on your desktop. Check credentials and URL in the dCloud session dashboard.
 

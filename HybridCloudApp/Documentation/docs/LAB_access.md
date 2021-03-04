@@ -64,7 +64,7 @@ Please find login credentials and URL to your CCP instance below:
     User name: admin
     User password: L1ons@svs
 
-> **You can explore CCP through the GUI, but please do not delete content already created.** <
+> **You can explore CCP through the GUI, but please do not delete content already created.**
 
 ## 5. Google Cloud access
 
@@ -109,6 +109,6 @@ From Chrome web browser on your desktop, please open URL [https://fwardzic.signi
 
 Enter your credentials that you can find in credentials page.
 
-Once logged in, make sure you will use Frankfurt region (eu-central-1). This is important since VPN is established to that particular region.
+Once logged in, make sure you will use Frankfurt region (eu-central-1). This is important since VPN Site-2-Site tunnel will be established to that particular region.
 
 <img src="https://raw.githubusercontent.com/pradeesi/HybridCloudApp/master/HybridCloudApp/Documentation/images/aws-region-set.png">

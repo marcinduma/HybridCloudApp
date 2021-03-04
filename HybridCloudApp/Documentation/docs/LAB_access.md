@@ -39,7 +39,7 @@ Now navigate to Details, where you find credentials to connect to dCloud VPN net
 
 Run Cisco Anyconnect VPN client available on your desktop. Check credentials and URL in the dCloud session details as described in section above.
 
-<img src="https://github.com/marcinduma/HybridCloudApp/blob/master/HybridCloudApp/Documentation/images/anyconnect-dcloud.png" width = 500>
+<img src="https://github.com/marcinduma/HybridCloudApp/blob/master/HybridCloudApp/Documentation/images/anyconnect_dcloud.png" width = 500>
 
 Your are connected to infrastructure on-prem. 
 

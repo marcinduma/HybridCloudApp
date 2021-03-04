@@ -8,20 +8,20 @@ The lab has been built leveraging multiple cloud environments as following:
 - Google Cloud
 - Private intrastructure on-prem
 
-You will have access to Cisco Container Platform GUI, where you will setup new Kubernetes Cluster deployed in AWS. You will have access to existing Kubernetes cluster on-premise (in Cisco Lab Data Center) and in addtion you will deploy some microservices in Amazon Web Services and Google Cloud. In total you will manage your application that will be deployed in 3 different environments. In this lab you will see how to connect microservices together to make whole application work.
-Most of the tasks you will do from Linux Jumphost that is running on-premise. From there you will deploy components of your application in Kubernetes Cluster in AWS and on-premise.
+You will have access to Cisco Container Platform GUI, where you will setup new Kubernetes Clusters deployed in AWS, GKE and On-Prem. In the end you will manage your application that will be deployed in 3 different environments. In this lab you will see how to connect microservices together to make whole application work.
+Most of the tasks you will do from Linux Jumphost that is running on-premise. From there you will deploy components of your application in Kubernetes Cluster in AWS, GKE and on-premise.
 
-## 1. On-prem private infrastructure access (VPN)
+## 1. Cisco dCloud infrastructure access (VPN)
 
-In order to get access to private network, speaker will assign username to you. Please then open credentials.html icon from your desktop, and select you username.
+In order to get access to dcloud network, you will get assigned a individual session with  username and password for VPN. Please then use Cisco AnyConnect VPN client from your desktop, to connect to Cisco dCloud network.
 
 ### 2 Cisco Anyconnect Mobility Client
 
-Run Cisco Anyconnect VPN client available on your desktop. Check credentials and URL in the local page on your desktop.
+Run Cisco Anyconnect VPN client available on your desktop. Check credentials and URL in the dCloud session dashboard.
 
 You’ll need to review and configure the AnyConnect options. After Anyconnect launches, you’ll need to click on the “Configuration” button on the main panel. See image below.
 
-<img src="https://raw.githubusercontent.com/pradeesi/HybridCloudApp/master/HybridCloudApp/Documentation/images/anyconnect_without_IP.png" width = 500>
+<img src="https://github.com/marcinduma/HybridCloudApp/blob/master/HybridCloudApp/Documentation/images/anyconnect_without_IP.png?raw=true" width = 500>
 
 In case of the issues with certificate, you will need to uncheck the option that says “Block connections to untrusted servers”. Your selection is immediately saved.
 

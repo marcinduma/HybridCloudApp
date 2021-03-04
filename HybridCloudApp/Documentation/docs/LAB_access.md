@@ -37,53 +37,34 @@ Now navigate to Details, where you find credentials to connect to dCloud VPN net
 
 ### Cisco Anyconnect Mobility Client
 
-Run Cisco Anyconnect VPN client available on your desktop. Check credentials and URL in the dCloud session dashboard.
+Run Cisco Anyconnect VPN client available on your desktop. Check credentials and URL in the dCloud session details as described in section above.
 
-You’ll need to review and configure the AnyConnect options. After Anyconnect launches, you’ll need to click on the “Configuration” button on the main panel. See image below.
-
-<img src="https://github.com/marcinduma/HybridCloudApp/blob/master/HybridCloudApp/Documentation/images/anyconnect_without_IP.png?raw=true" width = 500>
-
-In case of the issues with certificate, you will need to uncheck the option that says “Block connections to untrusted servers”. Your selection is immediately saved.
-
-![anyconnect settings picture here](https://raw.githubusercontent.com/pradeesi/HybridCloudApp/master/HybridCloudApp/Documentation/images/anyconnect_settings.png)
-
-Close the Configuration window.
-
-**Enter VPN IP Address as provided in credentials page on your desk or on below screenshot. Then choose “Connect”.**
-
-<img src="https://raw.githubusercontent.com/pradeesi/HybridCloudApp/master/HybridCloudApp/Documentation/images/anyconnect_with_IP.png" width = 500>
-
-After a few seconds, you’ll see a new window notifying you of an “Untrusted Server Certificate”. This is expected and not a real issue. Choose “Connect Anyway”.
-
-<img src="https://raw.githubusercontent.com/pradeesi/HybridCloudApp/master/HybridCloudApp/Documentation/images/anyconnect_accept_cert.png" width = 500>
-
-You’ll see a new window prompting you to provide your Lab’s network credentials. Enter the Username and Password as provided in credentials page. Choose “OK”.
-
-<img src="https://raw.githubusercontent.com/pradeesi/HybridCloudApp/master/HybridCloudApp/Documentation/images/anyconnect_login2.png" width = 500>
-
-Next you’ll see the main AnyConnect window go through several connection states. When it has completed establishing the connection, AnyConnect will iconify in the Notification Area of the Windows Taskbar. When you have an established VPN connection, the AnyConnect icon will display a symbol of a padlock.  
+<img src="https://github.com/marcinduma/HybridCloudApp/blob/master/HybridCloudApp/Documentation/images/anyconnect-dcloud.png" width = 500>
 
 Your are connected to infrastructure on-prem. 
 
 ## 3 Accessing Linux Jumphost
 
-Open PuTTY client (icon available on the desktop). If there is no icon for PuTTY, click start, and type `putty`
+Open PuTTY client or any equivalent SSH client on your desktop.
 
 Enter following IP address, make sure SSH is the selected protocol.
 
-    Computer: 172.18.0.50
-    User name: student<XX>
-    _where XX is your lab ID_ ie. student7 or student12
+    Computer: 198.18.1.50
+    User name: student
+    User password: C1sco12345
 
-You can find password in credentials page on your desktop.
 
 ## 4 Accessing Cisco Container Platform
 
-Cisco Container Platform manages Kuberenetes clusters in the private infrasturcture. You will have access to dedicated instance of Cisco Container Platform, from which you will manage you own Kuberenetes Clusters used later on to deploy application.
+Cisco Container Platform manages Kuberenetes clusters in the private infrasturcture. You will have access to dedicated instance of Cisco Container Platform, from which you will manage your own Kuberenetes Clusters used later on to deploy application.
 
-Please find login credentials and URL to your CCP instance in credentials page.
+Please find login credentials and URL to your CCP instance below:
 
-> **You can explore CCP through the GUI, but please respect other participants and follow only steps from instruction for changes.**
+    URL: https://198.18.1.100
+    User name: admin
+    User password: L1ons@svs
+
+> **You can explore CCP through the GUI, but please do not delete content already created.** <
 
 ## 5. Google Cloud access
 

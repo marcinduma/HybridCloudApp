@@ -31,9 +31,9 @@ On your session list you will see the one for HOLCLD-2101. Please open "view" to
 
 <img src="https://github.com/marcinduma/HybridCloudApp/blob/master/HybridCloudApp/Documentation/images/dCloud-dashboard-view.png" width = 500>
 
-## 3. Cisco dCloud infrastructure access (VPN)
+Now navigate to Details, where you find credentials to connect to dCloud VPN network.
 
-In order to get access to dcloud network, you will get assigned a individual session with  username and password for VPN. Please then use Cisco AnyConnect VPN client from your desktop, to connect to Cisco dCloud network.
+<img src="https://github.com/marcinduma/HybridCloudApp/blob/master/HybridCloudApp/Documentation/images/dCloud-session-details.PNG" width = 500>
 
 ### Cisco Anyconnect Mobility Client
 

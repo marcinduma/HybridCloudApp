@@ -15,7 +15,7 @@ Most of the tasks you will do from Linux Jumphost that is running on-premise. Fr
 
 The entire lab for the session is built using Cisco dCloud environment. To access it, you need to login to dCloud dashboard first. To do so, open https://dcloud.cisco.com in your browser.
 
-<img src="https://github.com/marcinduma/HybridCloudApp/blob/master/HybridCloudApp/Documentation/images/dCloud-start.png" width = 500>
+<img src="https://github.com/marcinduma/HybridCloudApp/blob/master/HybridCloudApp/Documentation/images/dCloud-start.PNG" width = 500>
 
 On the right top corner is button to login. To enter dCloud dashboard, please use your CCO account. It's same credentials which you use to access cisco.com resources ie downloading the Cisco software.
 
@@ -25,7 +25,7 @@ Once login to the Cisco dCloud dashboard, change your Data Center to be LON - EM
 
 When moved to correct DataCenter for the session, navigate to "My Hub" section, where you will see your assigned session.
 
-<img src="https://github.com/marcinduma/HybridCloudApp/blob/master/HybridCloudApp/Documentation/images/dCloud-dashboard.png" width = 500>
+<img src="https://github.com/marcinduma/HybridCloudApp/blob/master/HybridCloudApp/Documentation/images/dCloud-dashboard.PNG" width = 500>
 
 On your session list you will see the one for HOLCLD-2101. Please open "view" to check details, how to login to VPN.
 
